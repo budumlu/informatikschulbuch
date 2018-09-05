@@ -17,7 +17,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Schulbuch',
+      name: 'Oberstufen Informatik',
       homepage: 'index.md',
       auto2top: true,
       loadSidebar: true,
@@ -67,7 +67,7 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/wi-wissen/informatikschulbuch/blob/master/html-css/' + vm.route.file
+            var url = 'https://github.com/budumlu/schulbuch/tree/master/informatik-q1/' + vm.route.file
             var editHtml = '[Edit on GitHub](' + url + ')\n'
             return "<p style='text-align:right;'>{docsify-updated}<p>\n\n" + html
               + '\n\n----\n'

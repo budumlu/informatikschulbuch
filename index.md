@@ -3,9 +3,9 @@
 ## Informatik
 * [HTML & CSS](https://buch.lernraumzeit.de/html-css)
 * [Robotik mit Thymio II](https://buch.lernraumzeit.de/thymio)
-* [EF](https://buch.lernraumzeit.de/informatik-ef)
-* [Q1](https://buch.lernraumzeit.de/informatik-q1)
-* [Q2](https://buch.lernraumzeit.de/informatik-q2)
+* [Einführungsphase](https://buch.lernraumzeit.de/informatik-ef)
+* [Qualifikationsphase 1](https://buch.lernraumzeit.de/informatik-q1)
+* [Qualifikationsphase 2](https://buch.lernraumzeit.de/informatik-q2)
 
 
 ## Mathematik

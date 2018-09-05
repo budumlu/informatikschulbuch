@@ -32,11 +32,3 @@
 	  * [SQL-Datenbank I](sql-datenbank.md)
 	  * [SQL-Datenbank II](sql-datenbank-ii.md)
 	  * [SQL-Datenbank III](sql-datenbank-iii.md)
-
-
-
-* Literatur
-
-  * [YouTube Hilfe](https://www.youtube.com/playlist?list=PLgpWt6GS_DurTaq78mIPmLeIvICDvtcMu)
-  * [selfhtml.org](https://wiki.selfhtml.org/wiki/HTML)
-  * [W3Schools.com](http://www.w3schools.com/)
