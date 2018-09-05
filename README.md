@@ -1,6 +1,6 @@
-# informatikschulbuch
+# schulbuch
 
-In diesem Repository findest du ausgewählte Bereiche der Informatik in Schulbuchform.
+In diesem Repository findest du ausgewählte Bereiche der Informatik, Physik und Mathematik in Schulbuchform.
 
 
 ## Kapitel
