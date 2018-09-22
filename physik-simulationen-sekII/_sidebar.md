@@ -1,5 +1,5 @@
 * [Einleitung](README.md)
-* 1. Quantenobjekte
+1. Quantenobjekte
   * Erforschung des Photons
 	  * [Mechanische Wellen](wellen.md)
 	  * [Interferenz in der Wellenwanne](interferenz-in-der-wellenwanne.md)
@@ -20,13 +20,13 @@
 
 
 
-* 2. Elektrodynamik
+2. Elektrodynamik
 	* [Elektrische Energie gewinnen und verteilen](elektrische-energie-gewinnen-und-verteilen.md)
 	  * [Leiterschleife im Magnetfeld](elektrische-energie-gewinnen-und-verteilen/leiterschleife-im-magnetfeld.md)
-	  * [Induktion](chapter1.md)
+	  * [Induktion](elektrische-energie-gewinnen-und-verteilen/induktion.md)
 	  * [Transformator](elektrische-energie-gewinnen-und-verteilen/transformator.md)
 
-* 3. Strahlung & Materie
+3. Strahlung & Materie
 
 	* [Erforschung des Mikro- und Makrokosmos](3-strahlung-and-materie/erforschung-des-mikro-und-makrokosmos.md)
 		* [Das elektromagnetische Spektrum](3-strahlung-and-materie/erforschung-des-mikro-und-makrokosmos/das-elektromagnetische-spektrum.md)
