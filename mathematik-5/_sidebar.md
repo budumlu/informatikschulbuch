@@ -1,5 +1,4 @@
 * Themen
-
   * [Einleitung](README.md)
   * [Zahlenstrahl](zahlenstrahl.md)
   * [Runden](runden.md)
