@@ -1,0 +1,2 @@
+# Proportionalität
+<iframe scrolling="no" title="Grösse 1 und Grösse 2 verhalten sich proportional. Bestimme den fehlenden Wert ohne Taschenrechner." src="https://www.geogebra.org/material/iframe/id/RBXj3ePa/width/699/height/230/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="699px" height="230px" style="border:0px;"> </iframe>
