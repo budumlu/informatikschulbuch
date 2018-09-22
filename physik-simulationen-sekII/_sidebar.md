@@ -1,6 +1,5 @@
-* [Einleitung](README.md)
-
 1. Quantenobjekte
+  * [Einleitung](README.md)
 	* Erforschung des Photons
 	  * [Mechanische Wellen](wellen.md)
 	  * [Interferenz in der Wellenwanne](interferenz-in-der-wellenwanne.md)
