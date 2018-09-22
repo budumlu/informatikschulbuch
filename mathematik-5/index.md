@@ -1,4 +1,1 @@
-# Hello World!
-
-## Los geht's!
-
+Dieses GitBook sammelt Simulationen zum Mathematik-Unterricht der Klasse 5 in NRW.
