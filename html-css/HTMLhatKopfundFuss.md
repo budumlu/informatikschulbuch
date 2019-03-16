@@ -1,7 +1,5 @@
 # HTML hat Kopf und Fuß
 
-Bisher haben wir immer ein einem Sandkasten unsere ersten Schritte machen können. Nun geht es aber raus auf die Straße!
-
 Eine vollständige Webseite sieht nämlich wie folgt aus:
 
 ```html
@@ -29,15 +27,3 @@ Wir haben schon gelernt, dass es Rechtecke gibt, welche wir ineinanderschachteln
 `head` - dieses Rechteck wird **nicht** im Browserfenster angezeigt. Hier haben wir ganz spezielle Informationen für den Browser abgelegt.
 
 `body` - dieses Rechteck wird im Browserfenster angezeigt und füllt dies vollständig aus.
-
-i> [Hilfe zu Notepad++](https://youtu.be/uuXvdouR-Hw)
-
-t> Öffne Notepad++
-t> Kopiere den Text aus dem Beispiel in Notepad++
-t> Speichere den Text als "index.html" in deinem H-Laufwerk. Achte  unbedingt darauf, dass kein ".txt" am Ende steht. Ändere dazu die Dateiendung beim Speichern.
-t> Öffne dein gespeichertes Dokument im Browser (Doppelklick oder reinziehen).
-t> Untersuche, was die Tags p und title bewirken.
-
-s> Glückwunsch! Du kennst nun die Grundlagen von HTML!
-
-t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erstellen einer [Filmwebseite](filmwebseite.md) in Aufgabe 1-6 an.

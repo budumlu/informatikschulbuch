@@ -1,6 +1,5 @@
 * Kapitel
   * [HTML und CSS](index.md)
-  * [Elemente in HTML](ElementeInHTML.md)
   * [Text-Elemente in HTML](TextElementeInHTML.md)
   * [Verweise in HTML](VerweiseInHTML.md)
   * [Verschachtelungen in HTML](VerschachtelungenInHTML.md)

@@ -13,8 +13,6 @@ Eine Liste besteht aus einem Element `<ul></ul>` , welche alle Listenelemente ka
 
 `<ul>` ist die Abkürzung für unordered list, also einer ungeordneten Liste. Möchtest du deine Liste geordnet, also mit 1. und 2., so nimmst du stattdessen `<ol>` , was die Abkürzung für ordered List ist.
 
-t> Erstelle eine sortierte Liste deiner Lieblingsgerichte. 
-t> Erstelle eine unsortierte Liste mit 5 Farben.
 
 ## Tabelle
 
@@ -39,4 +37,4 @@ t> Erstelle im [Editor](https://apps.wi-wissen.de/html-css-js-editor/) eine Tabe
 
 t> Erstelle im [Editor](https://apps.wi-wissen.de/html-css-js-editor/) eine Tabelle mit 4 Spalten und 3 Zeilen
 
-t> Expertenaufgabe: Informiere dich, was der Tabellenkopf und -body ist.
+t> Expertenaufgabe: Informiere dich, was der Tabellenkopf und Tabellenbody ist.

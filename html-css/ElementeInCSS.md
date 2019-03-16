@@ -26,7 +26,7 @@ Grundsätzlich ist eine HTML-Element-Beschreibung in CSS immer wie folgt aufgeba
 
 ```css
 Element {
-	Attribut1: Attributwert1; 
+	Attribut1: Attributwert1;
 	Attribut2: Attributwert2;
 }
 ```
@@ -35,7 +35,7 @@ Nach dem das Element benannt wurde (etwa `body` oder `h1`), wird mit den geschwe
 
 ## Elemente adressieren
 
-In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist das nicht gewollt, und man möchte nur spezielle Elemente ansprechen. Dafür verwenden wir folgende Schreibweise: 
+In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist das nicht gewollt, und man möchte nur spezielle Elemente ansprechen. Dafür verwenden wir folgende Schreibweise:
 
 ```html
 <h1 class="besonders">grüne Überschrift</h1>
@@ -49,7 +49,7 @@ In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist da
 
 Hier werden nur alle Überschriften grün gefärbt, welche bei dem Attribut `class` den Attrributwert `besonders` haben.
 
-t> Übernimm das Beispiel in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/). 
+t> Übernimm das Beispiel in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/).
 
 t> Ändere die Farbe von grün auf rot.
 
@@ -64,10 +64,10 @@ Um die CSS-Befehle mit dem HTML-Dokument zu verknüpfen, gibt es zwei Möglichke
 ### CSS in HTML einbetten
 
 ```html
-<style> 
+<style>
 	h1 {
 		color:green;
-	} 
+	}
 </style>
 ```
 
@@ -81,10 +81,10 @@ Hier ist ein vollständiges Beispiel:
   <head>
 	<meta charset="utf-8">
 	<title>Titel der Webseite</title>
-    <style> 
+    <style>
       h1 {
           color:green;
-      } 
+      }
 	</style>
 	<!-- weitere Kopfinformationen -->
 	<!-- Kommentare werden im Browser nicht angezeigt. -->
@@ -97,11 +97,6 @@ Hier ist ein vollständiges Beispiel:
 </html>
 ```
 
-t> Erstelle im head deiner Filmwebseite ein CSS-Element.
-
-t> Übernimm darin das Beispiel und prüfe, dass deine Überschriften 1. Grades (`h1`) grün geworden sind. 
-
-
 
 ## Aus HTML auf CSS verweisen
 
@@ -112,4 +107,3 @@ i> Folgendes Vorgehen ist praktisch, sofern du dein CSS nicht nur auf einer Seit
 ```
 
 Hier wird für die CSS-Befehle eine extra Datei namens style.css im Unterordner css abgelgt. (Beachte Kapitel Verweise in HTML)
-

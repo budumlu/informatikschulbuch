@@ -53,7 +53,7 @@ Hier ist die mittlere Spalte doppelt so breit wie die anderen beiden. Du hättes
 
 Absolute Breiten gehen natürlich auch, da Bildschirme sehr verschiedene Auflösungen und Pixeldichten haben, musst du hier genau nachdenken. Absolute Größen sind etwa sinnvoll, wenn du eine Navigationsliste erstellst und diese unabhängig von den anderen Elemente eine feste Höhe haben soll.
 
- 
+
 
 ## Jedes hat seinen Platz
 
@@ -94,7 +94,3 @@ Weiterführende Artikel:
 
 * <https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/grid>
 * <http://maddesigns.de/css-grid-layout-2764.html>
-
-s> Glückwunsch! Du hast nun erweiterte Fähigkeiten in CSS erworben!
-
-t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erweitern deiner Filmwebseite mit den letzten Aufgabe an. ([Lehrunterlagen](http://apps.wi-wissen.de/lehrunterlagen.php))
