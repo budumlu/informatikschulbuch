@@ -1,7 +1,5 @@
 # CSS und die Boxen
 
-05.06.2017
-
 ## Entwicklerwerkzeuge im Browser
 
 Bisher haben wir einzelne Elemente von Webseiten gestaltet. Hier untersuchen wir die Beziehung der Elemente untereinander:
