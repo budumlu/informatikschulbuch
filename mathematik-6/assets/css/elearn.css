@@ -250,7 +250,7 @@ h1 {
   font-size: 3em;
   font-weight: 700;
   line-height: 110%;
-  color: #e2001a;
+  color: #85e085;
 }
 
 h2 {
@@ -337,12 +337,12 @@ table td {
 }
 
 a:link {
-  color: #e2001a;
+  color: #85e085;
   text-decoration: none;
 }
 
 a:visited {
-  color: #e2001a;
+  color: #85e085;
   text-decoration: none;
 }
 
@@ -360,7 +360,7 @@ a:active {
 }
 
 #content-overview span {
-  color: #e2001a;
+  color: #85e085;
   cursor: pointer;
 }
 
@@ -478,7 +478,7 @@ a:active {
 
 .kachel ul li:hover {
   padding-bottom: 0;
-  border-bottom: 3px solid #e2001a;
+  border-bottom: 3px solid #85e085;
 }
 
 /* ------------------------------------------ Tooltips ------------------------------------------ */
@@ -672,7 +672,7 @@ blockquote.emph-heading p:first-line {
 
 blockquote.hint {
   background-color: #eee;
-  border-left: 12px solid #e2001a;
+  border-left: 12px solid #85e085;
   padding: 1em 1em 1em 4em;
   font-style: normal;
 }
@@ -681,7 +681,7 @@ blockquote.hint:before {
   font-family: 'eLearn-icons';
   font-weight: normal;
   content: "h";
-  color: #e2001a;
+  color: #85e085;
   font-size: 3em;
   line-height: 1em;
   margin-top: 0.2em;
@@ -690,7 +690,7 @@ blockquote.hint:before {
 }
 
 blockquote.hint.emph-heading p:first-line {
-  color: #e2001a;
+  color: #85e085;
 }
 
 blockquote.task {
@@ -770,7 +770,7 @@ blockquote.links:before {
 }
 
 .section-overview-element.active {
-  border-left: 3px solid #e2001a;
+  border-left: 3px solid #85e085;
   background: #dcdcdc;
   padding: 5px 0 5px 127px;
 }
@@ -887,7 +887,7 @@ blockquote.links:before {
 #progressbar {
   height: 100%;
   width: 0%;
-  background-color: #e2001a;
+  background-color: #85e085;
   position: relative;
 }
 

@@ -2,18 +2,15 @@
 
 ## Los geht's!
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o6jlmZw7yqY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Diese Seiten sollen eine Unterstützung für Dich sein, während Du den HTML-Kurs von [AppCamps.de](https://appcamps.de) bearbeitest.
 
-Auf diesen Seiten lernst du mit HTML und CSS deine ersten Webseiten zu schreiben.
-
-HTML und CSS sind beide Metasprachen, das heißt, dass sie 
-keinen eigentlichen Inhalt haben, sondern nur beschreiben, wie Inhalt 
+HTML und CSS sind beide Metasprachen, das heißt, dass sie
+keinen eigentlichen Inhalt haben, sondern nur beschreiben, wie Inhalt
 aussehen soll. So werden mit HTML die Inhalte wie etwa Text, Bilder oder
- Video untergliedert. CSS hingegen ist für die Darstellung der in HTML 
-hinterlegten Texte, Bilder und Videos zuständig. Dies sorgt dafür, dass 
+ Video untergliedert. CSS hingegen ist für die Darstellung der in HTML
+hinterlegten Texte, Bilder und Videos zuständig. Dies sorgt dafür, dass
 nicht alle Webseiten gleich aussehen.
 
-t> Öffne eine Nachrichtenseite und adaptiere das Vorgehen aus [diesem Video](https://youtu.be/pN9blLvhvKk).
 
 ### HTML
 
@@ -28,3 +25,21 @@ Markup Language (Auszeichnungssprache) ist eine Sprache, die erklärt, wie etwas
 CSS - **C**ascading **S**tyle **S**heets
 
 CSS ist eine Art Formatvorlage mit Gestaltungsanweisungen, wie HTML-Dokumente dargestellt werden sollen.
+
+### HTML-Editor
+Um HTML-Webseiten zu schreiben benötigt man nur einen einfachen Texteditor und einen Browser, um den geschriebenen Code anzuzeigen.
+
+Jedoch gibt es verschiedene Online-Editoren, die Dir nicht nur ermöglichen, Deine erstellten Webseiten auch zu speichern, sondern auch zu veröffentlichen.
+
+Als Empfehlung kannst Du zum Beispiel den Editor von [Glitch.com](https://glitch.com) verwenden:
+
+<div class="glitch-embed-wrap" style="height: 486px; width: 100%;">
+  <iframe
+    allow="geolocation; microphone; camera; midi; encrypted-media"
+    src="https://glitch.com/embed/#!/embed/halved-beat?previewSize=100&previewFirst=true&sidebarCollapsed=true"
+    alt="halved-beat on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+Um Deine Änderungen am HTML-Code live verfolgen zu können, öffne die Live-Ansicht am besten in einem extra Browserfenster und ordne den Code-Editor und das Browserfenster nebeneinander an.
