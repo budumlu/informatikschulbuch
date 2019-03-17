@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<meta name="keywords" content="Key, Words">
-		<meta name="description" content="Hier Beschreibung einfügen">
-		<meta name="author" content="Name Autor">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="mathematik, klammerrechnung">
+        <meta name="description" content="Mathematikbuch Klasse 6">
+        <meta name="author" content="Torsten Budumlu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" type="text/css" href="../../Template/assets/css/elearn.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/elearn.css">
 
-		<script type="text/javascript" src="../../Template/assets/js/min.js"></script> <!-- von UHH verwendetes JQuery -->
-		<script type="text/javascript" src="../../Template/assets/js/elearn.js"></script> <!-- eLearn.js -->
+        <script type="text/javascript" src="assets/js/min.js"></script> <!-- von UHH verwendetes JQuery -->
+        <script type="text/javascript" src="assets/js/elearn.js"></script> <!-- eLearn.js -->
 
-		<script>
-		    window.onload = function() {
+        <script>
+            window.onload = function() {
 
                 // Erweiterungen hier einfügen
 
@@ -24,16 +24,20 @@
                 Alle nachfolgenden Erweiterungen sind 'auskommentiert'.
                 Das bedeutet, sie haben keine Funktion solange sie innerhalb
                 des /* ... * / Blocks sind. (Abschluss ohne Leerzeichen zwischen * und /)
-                Möchte man also etwas einbauen/nutzen, muss die jeilige Zeile
+                Möchte man also etwas einbauen/nutzen, muss die jeweilige Zeile
                 außerhalb des Kommentarblocks stehen.
                 Jeder Befehl endet mit einem ';'. Alles hinter den // ist
                 ein weiterer erklärender Kommentar.
 
+                eLearnJS.setLanguage("en"); // selects English as language
 
                 eLearnJS.toggleAllSections(); // Zeigt alle Sections an
                 eLearnJS.setNavigationTitle("Überschrift"); // Die Überschrift, wenn alle Sections sichtbar sind
 
-				eLearnJS.setBackButtonEnabled(true); // Zurück button im Header aktivieren
+                // Folgendes fügt einen zusätzlichen Knopf in der Navigationsleiste ein
+                // Eine beispielhafte Verwendung ist in quiz-types.html zu finden.
+                // Auf die quiz-types.html wird auch hier in der section "Quiz" verwiesen.
+                eLearnJS.setBackButtonEnabled(true); // Zurück button im Header aktivieren
                 eLearnJS.setBackButtonText("Übersicht"); // "Übersicht" als Text, statt "Zurück" für den Button
 
                 // Beispiele für BackPages (Was geöffnet wird beim Back button):
@@ -44,42 +48,40 @@
                 // "link" funktioniert wie ein href link eines <a>
                 eLearnJS.setBackPage(2, "index"); // Die 3. section
                 eLearnJS.setBackPage("Inhaltsverzeichnis", "name"); // Die section mit name="Inhaltsverzeichnis"
-				eLearnJS.setBackPage("../", "link"); // Im Pfad einen Schritt zurück
+                eLearnJS.setBackPage("../", "link"); // Im Pfad einen Schritt zurück
                 eLearnJS.setBackPage("http://google.de", "link"); // Google wird geöffnet
 
-				eLearnJS.generalDirectionButtonsEnabled(false); // keine Nav. Buttons
-				eLearnJS.setKeyNavigationEnabled(false); // keine Tastaturnavigation
-				eLearnJS.generalProgressbarEnabled(false); // keine Fortschrittsleiste
+                eLearnJS.generalDirectionButtonsEnabled(false); // keine Nav. Buttons
+                eLearnJS.setKeyNavigationEnabled(false); // keine Tastaturnavigation
+                eLearnJS.generalProgressbarEnabled(false); // keine Fortschrittsleiste
                 */
             }
         </script>
-
-		<title>elearn.js Tree Example</title>
-	</head>
-	<body>
-	    <!-- #wrap muss bleiben, sonst funktioniert eLearn.js nicht -->
-		<div id="wrap">
+        <title>Informatikbuch EF</title>
+    </head>
+    <body>
+        <!-- #wrap muss bleiben, sonst funktioniert eLearn.js nicht -->
+        <div id="wrap">
             <!-- Page Info -->
             <div class="lb-wrap" id="info">
                 <div class="lightbox">
                     <div class="info-wrapper">
-				        <!--Der inhalt der Info-Box kann frei mit html-Inhalt gefüllt werden. -->
-			         	<h4>Produktion digitaler Skripte</h4>
-				        <p>
-				            Michael Heinecke<br>
-				            Universität Hamburg
-				        <p>
-				    </div>
-			    </div>
+                        <!--Der Inhalt der Info-Box kann frei mit html-Inhalt gefüllt werden. -->
+                        <h4>Informatik EF</h4>
+                        <p>
+                            Torsten Budumlu<br>
+                            Gymnasium Augustinianum
+                        <p>
+                    </div>
+                </div>
             </div>
 
-			<div class="page">
+            <div class="page">
 
-
-
+                <!-- {{ BODY }} -->
                 <section name="Einleitung">
 
-									<h1>1. Einleitung</h1>
+                  <h1>1. Einleitung</h1>
                   <p>Hier <strong>entsteht</strong> ein frei verwendbares digitales Lehrbuch für die 10.Klasse Informatik in NRW. Alle Inhalte, Bilder und Texte sind unter <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY-SA-Lizenz</a> gestellt. Es ist zu beachten, dass verlinkte Inhalte unter andere Lizenzen gestellt sein können.</p>
                   <p>Die in diesem Lehrbuch verwendete Java-Bibliothek GLOOP[^1] ist für nicht kommerzielle Zwecke kostenlos verwendbar.</p>
                   <p>Dieses digitale Lehrbuch ist in der Markdown-Syntax verfasst und kann daher leicht in andere Formate überführt werden. Sollen Teile dieses Lehrbuchs in eine Präsentation übernommen werden, so bietet sich das Open-Source Programm Marp[^2] zur freien Verwendung an. Aber natürlich sind auch viele andere Markdown-Editoren für alle Systeme frei erhältlich. Dieses können den Quelltext, häufig mit Pandoc[^3] ,in andere Formate überführen. Ebenfalls hierfür geeignet ist elearn.js[^4]. Standardmäßig lässt sich dieses Lehrbuch als Pdf-, Mobi- oder ePub-Datei herunterladen.</p>
@@ -93,51 +95,36 @@
                   <p><a href="http://www.sumo.uni-hamburg.de/DigitaleSkripte/">http://www.sumo.uni-hamburg.de/DigitaleSkripte/</a> [^4]</p>
 
                 </section>
+                <section name="Brüche vergleichen">
+                Hier kannst Du verschiedene Brüche miteinander vergleichen.
 
-
-
-                <section name="Inhaltsverzeichnis">
-			        <h2>Inhaltsverzeichnis</h2>
-					<!-- Zusatz class="kachel" ändert die Darstellung -->
-			        <div id="content-overview" class="kachel">
-			            <!--
-			                Hier wird automatisch ein Inhaltsverzeichnis
-			                eingefügt, wenn das div#content-overview vorhanden
-			                ist.
-			            -->
-			        </div>
-			    </section>
-
-			    <section name="Themenbereich 1">
-			        <h2>1. Grundlagen</h2>
-			        <p>
-								In diesem Kapitel werden kurz die in diesem Lehrbuch verwendeten Werkzeuge vorgestellt. Dazu zählt der Java-Editor BlueJ und die GLOOP-Klassen-Bibliothek, mit Hilfe deren Sie schnell und kreativ auch eigene Ideen umzusetzen lernen werden.
-
-			            <br>
-			            Für genauere Information hier <a href="thema1.html">weiterlesen</a>
-			    </section>
-                <section name="Themenbereich 2">
-			        <h2>Themenbereich 2</h2>
-			        <p>
-								In diesem Kapitel erstellen wir mit GLOOP ein Schiebepuzzle. Schiebepuzzle sind gibt es schon sehr lange und in verschiedenen Ausführungen, meist mit 8 oder 15 Puzzleteilen.
-
-								Bei Schiebepuzzlen ist es das Ziel alle Puzzleteile in eine vorgegebene Reihenfolge zu bringen, wobei die Puzzleteile nur auf ein freies benachbarte Feld verschoben werden können. Weitere Informationen zu Schiebepuzzlen findet man in der [Wikipedia](https://de.wikipedia.org/wiki/15-Puzzle "Schiebepuzzle").
-			            Für genauere Information hier <a href="thema2/index.html">weiterlesen</a>
-			    </section>
-
-
-
-            	<!--MathJax-Einbindung für die Formeldarstellung-->
-	            <script type="text/x-mathjax-config">
-	            	if (typeof MathJaxListener !== 'undefined') {
-	                      MathJax.Hub.Register.StartupHook('End', function () {
-	                        MathJaxListener.invokeCallbackForKey_('End');
-	                      });
-	                    }
-	                    </script>
-	            <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
+                <div class="tabbed-box">
+                    <div class="tab" name="1. Aufgabe">
+                        1. Probiere die interaktive Aufgabe aus.
+                    </div>
+                    <div class="tab" name="2. Aufgabe">
+                        2. Finde heraus, ob die Brüche $$\frac{3}{4}$$ und $$\frac{9}{12}$$ gleich groß sind.
+                    </div>
+                    <div class="tab" name="3. Aufgabe">
+                        3. Finde zu fünf beliebigen Brüche je einen Bruch, der gleich groß ist.
+                    </div>
+                </div>
+              </section>
+                <!--MathJax-Einbindung für die Formeldarstellung-->
+                <script type="text/x-mathjax-config">
+                    MathJax.Hub.Config({
+                        extensions: ["tex2jax.js"],
+                        jax: ["input/TeX", "output/HTML-CSS"],
+                        tex2jax: {
+                            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                            processEscapes: true
+                        },
+                        "HTML-CSS": { availableFonts: ["TeX"] }
+                    });
+                </script>
+                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
             </div>
-		</div>
-	</body>
+        </div>
+    </body>
 </html>
