@@ -258,6 +258,7 @@
 						<li>Gestalten sie das Schiebepuzzle nach Ihrem Geschmack neu.</li>
 						</ol>
 						<pre><code class="java">
+
 						import GLOOP.*;
 
 						public class Puzzleanwendung
@@ -285,8 +286,8 @@
 						        dasTeil = new Puzzleteil[8];
 						        int n=1;
 
-						        for(int j=0;j<3;j++){
-						            for(int i=0;i<3;i++){
+						        for(int j=0;j &lt 3;j++){
+						            for(int i=0;i &lt 3;i++){
 						                dasTeil[n-1]= new Puzzleteil(i,j,n);
 						                n++;
 						                if (n==9) break;
@@ -308,7 +309,7 @@
 						* , dass man einen Array-Fehler bekommt: java.lang.ArrayIndexOutOfBoundsException (Laufzeitfehler)
 						*/
 						                int puffer = dieTastatur.gibZeichen();
-						                if(48<puffer&&puffer<57){
+						                if(48 &lt puffer&&puffer &lt 57){
 						                    markiert = puffer;
 						                }
 						            }
@@ -323,7 +324,7 @@
 						                }
 						                else
 						                {
-						                    for(int i=1;i<55;i++){
+						                    for(int i=1;i &lt 55;i++){
 						                        dasTeil[markiert-49].verschiebe(0,0,1);
 						                        Sys.warte(10);
 						                    }
@@ -339,7 +340,7 @@
 						                }
 						                else
 						                {
-						                    for(int i=1;i<55;i++){
+						                    for(int i=1;i &lt 55;i++){
 						                        dasTeil[markiert-49].verschiebe(0,0,-1);
 						                        Sys.warte(10);
 						                    }
@@ -354,7 +355,7 @@
 						                }
 						                else
 						                {
-						                    for(int i=1;i<55;i++){
+						                    for(int i=1;i &lt 55;i++){
 						                        dasTeil[markiert-49].verschiebe(1,0,0);
 						                        Sys.warte(10);
 						                    }
@@ -371,7 +372,7 @@
 						                }
 						                else
 						                {
-						                    for(int i=1;i<55;i++){
+						                    for(int i=1;i &lt 55;i++){
 						                        dasTeil[markiert-49].verschiebe(-1,0,0);
 						                        Sys.warte(10);
 						                    }
