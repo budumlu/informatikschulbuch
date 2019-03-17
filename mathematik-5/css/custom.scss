@@ -1,0 +1,36 @@
+/* ------------------------------------------ TABBED BOXES ------------------------------------------ */
+
+.tabs .tab-select {
+    display: inline-block;
+    padding: 5px 8px;
+    color: $light_grey;
+    cursor: pointer;
+    background-color: $dark_white;
+    border-right: 1px solid $lightest_grey;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+
+.tabs .tab-select:last-child {
+    border-right: none;
+}
+
+.tabs .tab-select.act {
+    background-color: $lightest_grey;
+}
+
+.tabbed-box {
+    background-color: $lightest_grey;
+    padding: 1.8em;
+}
