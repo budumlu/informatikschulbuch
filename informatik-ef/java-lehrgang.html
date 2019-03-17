@@ -80,7 +80,7 @@
 			        </div>
 			    </section>
 
-			    <section name="Grundlagen">
+			    <section name="1. Grundlagen">
 
 						<h1>1. Grundlagen</h1>
 						<p>In diesem Kapitel werden kurz die in diesem Lehrbuch verwendeten Werkzeuge vorgestellt. Dazu zählt der Java-Editor BlueJ und die GLOOP-Klassen-Bibliothek, mit Hilfe deren Sie schnell und kreativ auch eigene Ideen umzusetzen lernen werden.</p>
@@ -98,7 +98,7 @@
 						<h1>2.1 Programme per Hand ausführen</h1>
 						<p>Du hast gelernt Klassendiagramme zu erstellen. Nun wirst Du lernen Programmanweisungen aufzuschreiben, mit denen Du später Dein erstes echtes Computer-Programm steuern kannst. Unten siehst Du ein Koordinatensystem abgebildet, in dem sich 8 Puzzleteile befinden. Diese Teile lassen sich durch Verschieben in die richtige Reihenfolge bringen (von unten links nach oben rechts aufsteigend) . Dabei lässt sich ein Puzzle-Teil nur in ein leeres Puzzlefeld schieben, wie bei einem echten Schiebepuzzle.
 						Da es in unserer verwendeten Programmierwelt 3 Dimensionen gibt musst Du auch hier immer 3 Koordinaten zum Verschieben eines Puzzleteils angeben. Die rote (waagerechte) Achse ist die x-Achse, die grüne (senkrechte) Achse ist die y-Achse. Später gibt es dann noch die blaue Achse als z-Achse. (x- und z-Achse liegen dabei, wie bei allen aktuellen Spiele-Engines, in der Bodenebene.)</p>
-						<p><img src="/assets/Schiebepuzzel.png" alt="50%"></p>
+						<p><img src="/assets/img/Schiebepuzzel.png" alt="50%"></p>
 						<p><strong>Beispiele</strong>:</p>
 						<ul>
 						<li>zum Verschieben des zweiten Puzzleteils nach oben:</li>
@@ -136,11 +136,11 @@
 						<p>Das Schiebepuzzle, dass eben noch auf Papier ausgedruckt gespielt wurde,soll nun mit dem Code-Editor BlueJ programmiert und gesteuert werden. Dieser Editor bietet eine <em>Direkteingabe</em> an (-&gt; Ansicht oder Strg + E). Dort kann zunächst mit dem Befehlsaufruf</p>
 						<pre class="editor-colors lang-java"><span><span class="syntax--source syntax--java"><span class="syntax--keyword syntax--control syntax--new syntax--java">new</span> GLOOP.<span class="syntax--meta syntax--function-call syntax--java"><span class="syntax--entity syntax--name syntax--function syntax--java">GLKamera</span><span class="syntax--punctuation syntax--definition syntax--parameters syntax--begin syntax--bracket syntax--round syntax--java">(</span><span class="syntax--constant syntax--numeric syntax--decimal syntax--java">600</span><span class="syntax--punctuation syntax--separator syntax--delimiter syntax--java">,</span><span class="syntax--constant syntax--numeric syntax--decimal syntax--java">400</span><span class="syntax--punctuation syntax--definition syntax--parameters syntax--end syntax--bracket syntax--round syntax--java">)</span></span></span></span></pre>
 						<p>eine Kamere erzeugt werden,die einen Blick in die <em>GLOOP-Welt</em> erlaubt. Um ein bißchen mehr Orientierung zu bekommen ist es hilfreich, mit der GLKamera-Methode <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">zeigeAchsen(true)</code>die x- und y-Koordinatenachsen anzeigen zu lassen. Um Die Kamera ansprechen zu können,muss diese zunächst einen Namen (<em>Referenzierung</em>) bekommen. Dazu muss das kleine rote Icon in das Feld links neben die Direkteingabe gezogen werden, wie es bereits in der unten stehenden Abbildungen bereits vollzogen worden ist.</p>
-						<p><img src="/assets/Direkteingabe_1.png" alt=""></p>
+						<p><img src="/assets/img/Direkteingabe_1.png" alt=""></p>
 						<h2>Aufgabe</h2>
 						<p>Programmieren Sie nun, wie in den Screenshots zu sehen, das Schiebepuzzle zu Ende. Um die Tafeln auch beschriften zu können, muss darauf geachtet werden, dass die Datei <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">Zeichen.png</code> im Projektordner abgespeichert wurde. Mit der <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">verschiebe</code>-Methode aus dem Kapitel <a href="/das-schiebepuzzle-teil1/unplugged.md">Unplugged</a> können die Objekte vomTyp <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">GLTafel</code> auch verschoben werden.</p>
-						<p><img src="/assets/Direkteingabe_2.png" alt=""></p>
-						<p><img src="/assets/Direkteingabe_3.png" alt=""></p>
+						<p><img src="/assets/img/Direkteingabe_2.png" alt=""></p>
+						<p><img src="/assets/img/Direkteingabe_3.png" alt=""></p>
 					</section><section name="3. GLOOP-Welten">
 						<h1>3. GLOOP-Welten</h1>
 						<p>Während wir bisher nur in zwei Dimensionen Objekte in der GLOOP-Welt manipuliert haben, sollen nun Objekte auch in drei Dimensionen positioniert und verschoben werden.</p>
@@ -149,7 +149,7 @@
 						<p>Nachdem Sie nun bereits ein erstes Schiebpuzzle kreiert haben, sollen Ihre Fähigkeiten bei der Programmierung eines Skulpturengartens trainiert werden.</p>
 						<h2>Aufgabenstellung</h2>
 						<p>Erstellen Sie einen Skulpturengarten, in dem Sie beliebige Arten von Skulpturen designen und kreisförmig um einen Mittelpunkt anordnen. Verwenden Sie als Grundlage,den Code aus [Hallo! Leere Welt!](##Hallo! Leere Welt!).<br>
-						<img src="/assets/Skulpturengarten.jpg" alt=""></p>
+						<img src="/assets/img/Skulpturengarten.jpg" alt=""></p>
 						<h2>Hallo! Leere Welt!</h2>
 						<pre class="editor-colors lang-java"><span><span class="syntax--source syntax--java"><span class="syntax--meta syntax--import syntax--java"><span class="syntax--keyword syntax--other syntax--import syntax--java">import</span> <span class="syntax--storage syntax--modifier syntax--import syntax--java">GLOOP<span class="syntax--punctuation syntax--separator syntax--java">.</span><span class="syntax--variable syntax--language syntax--wildcard syntax--java">*</span></span><span class="syntax--punctuation syntax--terminator syntax--java">;</span></span></span></span>
 						<span class=""><span class="syntax--source syntax--java"><span class="syntax--meta syntax--class syntax--java"><span class="syntax--meta syntax--class syntax--identifier syntax--java"><span class="syntax--storage syntax--modifier syntax--java">class</span> <span class="syntax--entity syntax--name syntax--type syntax--class syntax--java">HalloWelt</span></span><span class="syntax--punctuation syntax--section syntax--class syntax--begin syntax--bracket syntax--curly syntax--java">{</span><span class="syntax--meta syntax--class syntax--body syntax--java"></span></span></span></span>
@@ -433,7 +433,7 @@
 						<span></span> </pre>
 					</section><section name="3.6 Das UFO-Spiel">
 						<h1>3.6 Das UFO-Spiel</h1>
-						<p><img src="/assets/UFO_Skizze.jpg" alt=""></p>
+						<p><img src="/assets/img/UFO_Skizze.jpg" alt=""></p>
 						<h2>Aufgaben</h2>
 						<ol>
 						<li>Analysiere den Programm-Code des Ufo-Spiels.</li>
