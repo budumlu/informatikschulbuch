@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="mathematik, klammerrechnung">
+        <meta name="description" content="Mathematikbuch Klasse 6">
+        <meta name="author" content="Torsten Budumlu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/elearn.css">
+
+        <script type="text/javascript" src="assets/js/min.js"></script> <!-- von UHH verwendetes JQuery -->
+        <script type="text/javascript" src="assets/js/elearn.js"></script> <!-- eLearn.js -->
+
+        <script>
+            window.onload = function() {
+
+                // Erweiterungen hier einfügen
+
+                // Ende der Erweiterungen
+
+                /* Mögliche Erweiterungen
+
+                Alle nachfolgenden Erweiterungen sind 'auskommentiert'.
+                Das bedeutet, sie haben keine Funktion solange sie innerhalb
+                des /* ... * / Blocks sind. (Abschluss ohne Leerzeichen zwischen * und /)
+                Möchte man also etwas einbauen/nutzen, muss die jeweilige Zeile
+                außerhalb des Kommentarblocks stehen.
+                Jeder Befehl endet mit einem ';'. Alles hinter den // ist
+                ein weiterer erklärender Kommentar.
+
+                eLearnJS.setLanguage("en"); // selects English as language
+
+                eLearnJS.toggleAllSections(); // Zeigt alle Sections an
+                eLearnJS.setNavigationTitle("Überschrift"); // Die Überschrift, wenn alle Sections sichtbar sind
+
+                // Folgendes fügt einen zusätzlichen Knopf in der Navigationsleiste ein
+                // Eine beispielhafte Verwendung ist in quiz-types.html zu finden.
+                // Auf die quiz-types.html wird auch hier in der section "Quiz" verwiesen.
+                eLearnJS.setBackButtonEnabled(true); // Zurück button im Header aktivieren
+                eLearnJS.setBackButtonText("Übersicht"); // "Übersicht" als Text, statt "Zurück" für den Button
+
+                // Beispiele für BackPages (Was geöffnet wird beim Back button):
+                // Der erste Parameter entspricht dem jeweiligen Ziel
+                // der zweite Parameter gibt die Art des Ziels an.
+                // Bei "index" wird der erste Parameter als Index einer
+                // Section erkannt. "name" wäre der Name einer Section.
+                // "link" funktioniert wie ein href link eines <a>
+                eLearnJS.setBackPage(2, "index"); // Die 3. section
+                eLearnJS.setBackPage("Inhaltsverzeichnis", "name"); // Die section mit name="Inhaltsverzeichnis"
+                eLearnJS.setBackPage("../", "link"); // Im Pfad einen Schritt zurück
+                eLearnJS.setBackPage("http://google.de", "link"); // Google wird geöffnet
+
+                eLearnJS.generalDirectionButtonsEnabled(false); // keine Nav. Buttons
+                eLearnJS.setKeyNavigationEnabled(false); // keine Tastaturnavigation
+                eLearnJS.generalProgressbarEnabled(false); // keine Fortschrittsleiste
+                */
+            }
+        </script>
+        <title>Mathematibuch 6</title>
+    </head>
+    <body>
+        <!-- #wrap muss bleiben, sonst funktioniert eLearn.js nicht -->
+        <div id="wrap">
+            <!-- Page Info -->
+            <div class="lb-wrap" id="info">
+                <div class="lightbox">
+                    <div class="info-wrapper">
+                        <!--Der Inhalt der Info-Box kann frei mit html-Inhalt gefüllt werden. -->
+                        <h4>Informatik EF</h4>
+                        <p>
+                            Torsten Budumlu<br>
+                            Gymnasium Augustinianum
+                        <p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page">
+
+                <!-- {{ BODY }} -->
+                <section name="Einleitung">
+
+                  <h1>1. Einleitung</h1>
+                  <p>Hier <strong>entsteht</strong> ein frei verwendbares digitales Lehrbuch für die 10.Klasse Informatik in NRW. Alle Inhalte, Bilder und Texte sind unter <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY-SA-Lizenz</a> gestellt. Es ist zu beachten, dass verlinkte Inhalte unter andere Lizenzen gestellt sein können.</p>
+                  <p>Die in diesem Lehrbuch verwendete Java-Bibliothek GLOOP[^1] ist für nicht kommerzielle Zwecke kostenlos verwendbar.</p>
+                  <p>Dieses digitale Lehrbuch ist in der Markdown-Syntax verfasst und kann daher leicht in andere Formate überführt werden. Sollen Teile dieses Lehrbuchs in eine Präsentation übernommen werden, so bietet sich das Open-Source Programm Marp[^2] zur freien Verwendung an. Aber natürlich sind auch viele andere Markdown-Editoren für alle Systeme frei erhältlich. Dieses können den Quelltext, häufig mit Pandoc[^3] ,in andere Formate überführen. Ebenfalls hierfür geeignet ist elearn.js[^4]. Standardmäßig lässt sich dieses Lehrbuch als Pdf-, Mobi- oder ePub-Datei herunterladen.</p>
+                  <p>Der erste Teil dieses Buchs führt durch einen GLOOP-Lehrgang. Dieser Teil soll so konzipiert sein, dass er im Unterricht wie ein normales Lehrwerk verwendet werden kann, ohne den Unterricht mit Gesprächen, Gruppenarbeitsphasen und Übungsaufgaben vollständig ersetzen zu wollen. Der Lehrgang kann aber einen sinnvollen Rahmen für den Unterricht bieten, und beinhaltet auch interaktive Übungsaufgaben, die so angelegt sein sollen, dass sie der Selbstkontrolle des Lernenden dienen.</p>
+                  <p>Der zweite Teil ist als eine Art Nachschlagewerk gedacht, der grundlegende Methoden und Konzepte der JAVA-Programmierung beinhaltet.</p>
+                  <h1>Lizenz</h1>
+                  <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>. Es ist zu beachten, dass verlinkte und eingebettete Inhalte sowie Bilder unter andere Lizenzen gestellt sein können.</p>
+                  <p><a href="http://www.schulentwicklung.nrw.de/cms/programmierung-mit-gloop/oop-mit-gloop/programmierung.html">http://www.schulentwicklung.nrw.de/cms/programmierung-mit-gloop/oop-mit-gloop/programmierung.html</a> [^1]</p>
+                  <p><a href="https://yhatt.github.io/marp/">https://yhatt.github.io/marp/</a> [^2]</p>
+                  <p><a href="http://pandoc.org/">http://pandoc.org/</a> [^3]</p>
+                  <p><a href="http://www.sumo.uni-hamburg.de/DigitaleSkripte/">http://www.sumo.uni-hamburg.de/DigitaleSkripte/</a> [^4]</p>
+
+</section>
+                <!--MathJax-Einbindung für die Formeldarstellung-->
+                <script type="text/x-mathjax-config">
+                    MathJax.Hub.Config({
+                        extensions: ["tex2jax.js"],
+                        jax: ["input/TeX", "output/HTML-CSS"],
+                        tex2jax: {
+                            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                            processEscapes: true
+                        },
+                        "HTML-CSS": { availableFonts: ["TeX"] }
+                    });
+                </script>
+                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
