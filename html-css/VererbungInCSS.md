@@ -1,6 +1,6 @@
 # Vererbung in CSS
 
-Wie auch im echten Leben, erben Kinder von ihren Eltern. Bitte was?! Okay, klären wir erst einmal, wo auf Webseiten Eltern und Kinder auftauchen: Sicher erinnerst du dich noch an die Verschachtelung von [HTML-Elementen](https://buch.lernraumzeit.de/html-css/04.html). Diese konnte ja ähnlich wie Matroschka-Figuren oder kleine Pakete ineinander gepackt werden.
+Wie auch im echten Leben, erben Kinder von ihren Eltern. Bitte was?! Okay, klären wir erst einmal, wo auf Webseiten Eltern und Kinder auftauchen: Sicher erinnerst du dich noch an die Verschachtelung von [HTML-Elementen](https://buch.lernraumzeit.de/html-css/#/VerschachtelungenInHTML). Diese konnte ja ähnlich wie Matroschka-Figuren oder kleine Pakete ineinander gepackt werden.
 
 Ein Element, welches mindestens ein Element enthält, nennt man Elternelement. Die Elemente innerhalb des Elternelements sind Kinderelemente. Haben diese Kinderelemente wiederum Kinderelemente, so sind sie gleichzeitig auch Elternelemente.
 
