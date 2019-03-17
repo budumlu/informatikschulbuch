@@ -22,6 +22,12 @@ html {
   background-color: #f1f1f1;
 }
 
+.book-shelf > div {
+  width: 200px;
+  margin: 10px;
+  line-height: 75px;
+}
+
 
 h1 {
   font-family: 'Pacifico', cursive;
