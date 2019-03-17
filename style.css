@@ -19,12 +19,11 @@ html {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .book {
   margin: 30px;
-  width: 100px;
+  width: 172px;
   height: 200px;
 }
 
