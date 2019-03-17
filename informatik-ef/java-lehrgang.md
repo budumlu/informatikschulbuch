@@ -27,7 +27,7 @@ Bei Schiebepuzzlen ist es das Ziel alle Puzzleteile in eine vorgegebene Reihenfo
 Du hast gelernt Klassendiagramme zu erstellen. Nun wirst Du lernen Programmanweisungen aufzuschreiben, mit denen Du später Dein erstes echtes Computer-Programm steuern kannst. Unten siehst Du ein Koordinatensystem abgebildet, in dem sich 8 Puzzleteile befinden. Diese Teile lassen sich durch Verschieben in die richtige Reihenfolge bringen (von unten links nach oben rechts aufsteigend) . Dabei lässt sich ein Puzzle-Teil nur in ein leeres Puzzlefeld schieben, wie bei einem echten Schiebepuzzle.
 Da es in unserer verwendeten Programmierwelt 3 Dimensionen gibt musst Du auch hier immer 3 Koordinaten zum Verschieben eines Puzzleteils angeben. Die rote (waagerechte) Achse ist die x-Achse, die grüne (senkrechte) Achse ist die y-Achse. Später gibt es dann noch die blaue Achse als z-Achse. (x- und z-Achse liegen dabei, wie bei allen aktuellen Spiele-Engines, in der Bodenebene.)
 
-![50%](/assets/Schiebepuzzel.png)
+![50%](assets/img/Schiebepuzzel.png)
 
 **Beispiele**:
 - zum Verschieben des zweiten Puzzleteils nach oben:
@@ -80,17 +80,17 @@ Das Schiebepuzzle, dass eben noch auf Papier ausgedruckt gespielt wurde,soll nun
 new GLOOP.GLKamera(600,400)
 ```
 
-eine Kamere erzeugt werden,die einen Blick in die _GLOOP-Welt_ erlaubt. Um ein bißchen mehr Orientierung zu bekommen ist es hilfreich, mit der GLKamera-Methode `zeigeAchsen(true)`die x- und y-Koordinatenachsen anzeigen zu lassen. Um Die Kamera ansprechen zu können,muss diese zunächst einen Namen \(_Referenzierung_\) bekommen. Dazu muss das kleine rote Icon in das Feld links neben die Direkteingabe gezogen werden, wie es bereits in der unten stehenden Abbildungen bereits vollzogen worden ist.
+eine Kamera erzeugt werden,die einen Blick in die _GLOOP-Welt_ erlaubt. Um ein bißchen mehr Orientierung zu bekommen ist es hilfreich, mit der GLKamera-Methode `zeigeAchsen(true)`die x- und y-Koordinatenachsen anzeigen zu lassen. Um Die Kamera ansprechen zu können,muss diese zunächst einen Namen \(_Referenzierung_\) bekommen. Dazu muss das kleine rote Icon in das Feld links neben die Direkteingabe gezogen werden, wie es bereits in der unten stehenden Abbildungen bereits vollzogen worden ist.
 
-![](/assets/Direkteingabe_1.png)
+![](assets/img/Direkteingabe_1.png)
 
 ## Aufgabe
 
 Programmieren Sie nun, wie in den Screenshots zu sehen, das Schiebepuzzle zu Ende. Um die Tafeln auch beschriften zu können, muss darauf geachtet werden, dass die Datei `Zeichen.png` im Projektordner abgespeichert wurde. Mit der `verschiebe`-Methode aus dem Kapitel [Unplugged](/das-schiebepuzzle-teil1/unplugged.md) können die Objekte vomTyp `GLTafel` auch verschoben werden.
 
-![](/assets/Direkteingabe_2.png)
+![](assets/img/Direkteingabe_2.png)
 
-![](/assets/Direkteingabe_3.png)
+![](assets/img/Direkteingabe_3.png)
 
 
 
@@ -108,7 +108,7 @@ Nachdem Sie nun bereits ein erstes Schiebpuzzle kreiert haben, sollen Ihre Fähi
 
 ## Aufgabenstellung
 Erstellen Sie einen Skulpturengarten, in dem Sie beliebige Arten von Skulpturen designen und kreisförmig um einen Mittelpunkt anordnen. Verwenden Sie als Grundlage,den Code aus [Hallo! Leere Welt!](##Hallo! Leere Welt!).  
-![](/assets/Skulpturengarten.jpg)
+![](assets/img/Skulpturengarten.jpg)
 
 ##Hallo! Leere Welt!
 
@@ -423,7 +423,7 @@ public class Puzzleteil
 |||Name der Seite///
 
 # 3.6 Das UFO-Spiel
-![](/assets/UFO_Skizze.jpg)
+![](assets/img/UFO_Skizze.jpg)
 
 ## Aufgaben
 
