@@ -21,10 +21,8 @@ html {
   flex-wrap: wrap;
   background-color: #f1f1f1;
 }
-
-.book-shelf > div {
-  width: 150px;
-  margin: 10px;
+.img{
+  width: 200px;
 }
 
 
