@@ -19,12 +19,12 @@ html {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  background-color: #f1f1f1;
 }
 
-.book {
-  margin: 30px;
-  width: 172px;
-  height: 200px;
+.book-shelf > div {
+  width: 150px;
+  margin: 10px;
 }
 
 
