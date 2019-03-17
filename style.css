@@ -17,11 +17,11 @@ html {
 
 .book-shelf {
   display: flex;
-  flex-wrap: row wrap;
+  flex-flow: row wrap;
   background-color: #f1f1f1;
 }
 
-.book-shelf > a {
+.book-shelf > div {
 
 }
 
