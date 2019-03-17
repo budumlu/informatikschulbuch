@@ -21,7 +21,7 @@ html {
 }
 
 .book-shelf > div {
-  flex-wrap: wrap;
+  flex-wrap: row wrap;
 }
 
 
