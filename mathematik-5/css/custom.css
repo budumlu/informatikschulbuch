@@ -11,3 +11,38 @@
 .markdown-section tr:nth-child(2n) {
     background-color: #ffffff;
 }
+
+/* ------------------------------------------ TABBED BOXES ------------------------------------------ */
+.tabs .tab-select {
+  display: inline-block;
+  padding: 5px 8px;
+  color: #888;
+  cursor: pointer;
+  background-color: #eee;
+  border-right: 1px solid #dcdcdc;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+
+.tabs .tab-select:last-child {
+  border-right: none;
+}
+
+.tabs .tab-select.act {
+  background-color: #dcdcdc;
+}
+
+.tabbed-box {
+  background-color: #dcdcdc;
+  padding: 1.8em;
+}
