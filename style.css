@@ -54,7 +54,7 @@ li {
   float: left;
   margin-right: 0px;
   border-right: 1px solid #aaa;
-  padding: 20px;
+  padding: 5px 20px;
 }
 
 li:last-child {
