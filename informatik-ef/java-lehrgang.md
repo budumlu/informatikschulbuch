@@ -480,9 +480,7 @@ public class Puzzleteil
 
 Das MakeyMakey-Board ist dazu gedacht, Spiele, die man normalerweise mit einer Comutertastatur steuert, durch Berührung von leitenden Objekte zu steuern. Das eingebettete Video zeigt ein paar exemplarische Beispiele:
 
-{% youtube %}
-https://youtu.be/rfQqh7iCcOU
-{% endyoutube %}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rfQqh7iCcOU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 |||Name der Seite///
 
@@ -497,6 +495,4 @@ Beachtet bei euren Überlegungen folgende Kriterien:
 * Das Spiel muss zurückmelden, wer gewonnen hat.
 ---
 
-{% youtube %}
-https://www.youtube.com/watch?v=5XjZ2MFmYjk
-{% endyoutube %}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5XjZ2MFmYjk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
