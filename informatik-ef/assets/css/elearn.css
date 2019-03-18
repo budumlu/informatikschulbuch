@@ -43,7 +43,7 @@
     font-family: 'Pacifico';
     font-style: normal;
     font-weight: normal;
-    src: url('../font/Pacifico.woff') format('woff');
+    src: url('Pacifico.woff') format('woff');
 }
 
 
