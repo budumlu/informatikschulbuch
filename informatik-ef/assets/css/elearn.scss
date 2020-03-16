@@ -57,6 +57,13 @@ $black_half_transparent: rgba(0, 0, 0, 0.4);
     src: url("../font/OpenSans-Italic-webfont.woff") format("woff"), url("../font/OpenSans-Italic-webfont.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/Pacifico.woff') format('woff');
+}
+
 /*Seitenaufbau*/
 
 * {

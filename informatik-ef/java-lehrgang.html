@@ -12,8 +12,8 @@
 		<script type="text/javascript" src="assets/js/min.js"></script> <!-- von UHH verwendetes JQuery -->
 		<script type="text/javascript" src="assets/js/elearn.js"></script> <!-- eLearn.js -->
 		<link rel="stylesheet" href="assets/highlight/styles/default.css">
-		<script src="assets/highlight/highlight.pack.js"></script>
-		<script>hljs.initHighlightingOnLoad();</script>
+		<!-- <script src="assets/highlight/highlight.pack.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script> -->
 
 		<script>
 		    window.onload = function() {
@@ -85,20 +85,20 @@
 
 			    <section name="1. Grundlagen">
 
-						<h1>1. Grundlagen</h1>
+						<h2>1. Grundlagen</h2>
 						<p>In diesem Kapitel werden kurz die in diesem Lehrbuch verwendeten Werkzeuge vorgestellt. Dazu zählt der Java-Editor BlueJ und die GLOOP-Klassen-Bibliothek, mit Hilfe deren Sie schnell und kreativ auch eigene Ideen umzusetzen lernen werden.</p>
 					</section><section name="1.1 BlueJ & GLOOP">
-						<h1>1.1 BlueJ und GLOOP</h1>
+						<h2>1.1 BlueJ und GLOOP</h2>
 						<p>Für die Arbeit mit diesem Lehrbuch benötigt man die Java-Bibliothek GLOOP und einen Java-Editor. Im folgenden wurde BlueJ eingesetzt. Eine Installationsanleitung ist <a href="http://www.schulentwicklung.nrw.de/cms/programmierung-mit-gloop/installation/index.html" title="Installationsanleitung">hier</a> verlinkt.</p>
 					</section><section name="1.2 Zeichen und Texturen">
-						<h1>1.2 Zeichen und Texturen</h1>
+						<h2>1.2 Zeichen und Texturen</h2>
 						<p>Um die Objekte mit Texturen oder Schriftzeichen zu überziehen, ist darauf zu achten, dass die Datei <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">Zeichen.png</code> bzw.die gewünschten Texturen im Projektordner abgelegt sind. Sollte das Projekt noch nicht gespeichert worden sein,muss man über <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">Datei -&gt; Speichern unter</code> einen Projektordner anlegen. Über den Dateimanager kann dann die notwendige Bilddatei (.png oder .jpg) in den Ordner abgelegt werden.</p>
 					</section><section name="2. Schiebepuzzle I">
-						<h1>2. Schiebepuzzle I</h1>
+						<h2>2. Schiebepuzzle I</h2>
 						<p>In diesem Kapitel erstellen wir mit GLOOP ein Schiebepuzzle. Schiebepuzzle sind gibt es schon sehr lange und in verschiedenen Ausführungen, meist mit 8 oder 15 Puzzleteilen.</p>
 						<p>Bei Schiebepuzzlen ist es das Ziel alle Puzzleteile in eine vorgegebene Reihenfolge zu bringen, wobei die Puzzleteile nur auf ein freies benachbarte Feld verschoben werden können. Weitere Informationen zu Schiebepuzzlen findet man in der <a href="https://de.wikipedia.org/wiki/15-Puzzle" title="Schiebepuzzle">Wikipedia</a>.</p>
 					</section><section name="2.1 Programme per Hand ausführen">
-						<h1>2.1 Programme per Hand ausführen</h1>
+						<h2>2.1 Programme per Hand ausführen</h2>
 						<p>Du hast gelernt Klassendiagramme zu erstellen. Nun wirst Du lernen Programmanweisungen aufzuschreiben, mit denen Du später Dein erstes echtes Computer-Programm steuern kannst. Unten siehst Du ein Koordinatensystem abgebildet, in dem sich 8 Puzzleteile befinden. Diese Teile lassen sich durch Verschieben in die richtige Reihenfolge bringen (von unten links nach oben rechts aufsteigend) . Dabei lässt sich ein Puzzle-Teil nur in ein leeres Puzzlefeld schieben, wie bei einem echten Schiebepuzzle.
 						Da es in unserer verwendeten Programmierwelt 3 Dimensionen gibt musst Du auch hier immer 3 Koordinaten zum Verschieben eines Puzzleteils angeben. Die rote (waagerechte) Achse ist die x-Achse, die grüne (senkrechte) Achse ist die y-Achse. Später gibt es dann noch die blaue Achse als z-Achse. (x- und z-Achse liegen dabei, wie bei allen aktuellen Spiele-Engines, in der Bodenebene.)</p>
 						<p><img src="assets/img/Schiebepuzzel.png" alt="50%"></p>
@@ -135,7 +135,7 @@
 						<p><strong>3. Aufgabe</strong>:  Entwickle anhand des echten Schiebepuzzles oder des Papier-Schiebepuzzles eine allgemeine Lösungsstrategie für Schiebepuzzle und notiere diese.</p>
 						<p><strong>4. Aufgabe</strong>:  Gibt es eine Möglichkeit das Schiebepuzzle so zu legen, dass es nicht lösbar ist? Stelle eine Vermutung an, probiere es aus und recherchiere dazu im Internet.</p>
 					</section><section name="2.2 Direkteingabe">
-						<h1>2.2 Direkteingabe</h1>
+						<h2>2.2 Direkteingabe</h2>
 						<p>Das Schiebepuzzle, dass eben noch auf Papier ausgedruckt gespielt wurde,soll nun mit dem Code-Editor BlueJ programmiert und gesteuert werden. Dieser Editor bietet eine <em>Direkteingabe</em> an (-&gt; Ansicht oder Strg + E). Dort kann zunächst mit dem Befehlsaufruf</p>
 						<pre class="editor-colors lang-java"><span><span class="syntax--source syntax--java"><span class="syntax--keyword syntax--control syntax--new syntax--java">new</span> GLOOP.<span class="syntax--meta syntax--function-call syntax--java"><span class="syntax--entity syntax--name syntax--function syntax--java">GLKamera</span><span class="syntax--punctuation syntax--definition syntax--parameters syntax--begin syntax--bracket syntax--round syntax--java">(</span><span class="syntax--constant syntax--numeric syntax--decimal syntax--java">600</span><span class="syntax--punctuation syntax--separator syntax--delimiter syntax--java">,</span><span class="syntax--constant syntax--numeric syntax--decimal syntax--java">400</span><span class="syntax--punctuation syntax--definition syntax--parameters syntax--end syntax--bracket syntax--round syntax--java">)</span></span></span></span></pre>
 						<p>eine Kamera erzeugt werden,die einen Blick in die <em>GLOOP-Welt</em> erlaubt. Um ein bißchen mehr Orientierung zu bekommen ist es hilfreich, mit der GLKamera-Methode <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">zeigeAchsen(true)</code>die x- und y-Koordinatenachsen anzeigen zu lassen. Um Die Kamera ansprechen zu können,muss diese zunächst einen Namen (<em>Referenzierung</em>) bekommen. Dazu muss das kleine rote Icon in das Feld links neben die Direkteingabe gezogen werden, wie es bereits in der unten stehenden Abbildungen bereits vollzogen worden ist.</p>
@@ -145,10 +145,10 @@
 						<p><img src="assets/img/Direkteingabe_2.png" alt=""></p>
 						<p><img src="assets/img/Direkteingabe_3.png" alt=""></p>
 					</section><section name="3. GLOOP-Welten">
-						<h1>3. GLOOP-Welten</h1>
+						<h2>3. GLOOP-Welten</h2>
 						<p>Während wir bisher nur in zwei Dimensionen Objekte in der GLOOP-Welt manipuliert haben, sollen nun Objekte auch in drei Dimensionen positioniert und verschoben werden.</p>
 					</section><section name="3.1 Skulpturengarten">
-						<h1>3.1 Skulpturengarten</h1>
+						<h2>3.1 Skulpturengarten</h2>
 						<p>Nachdem Sie nun bereits ein erstes Schiebpuzzle kreiert haben, sollen Ihre Fähigkeiten bei der Programmierung eines Skulpturengartens trainiert werden.</p>
 						<h2>Aufgabenstellung</h2>
 						<p>Erstellen Sie einen Skulpturengarten, in dem Sie beliebige Arten von Skulpturen designen und kreisförmig um einen Mittelpunkt anordnen. Verwenden Sie als Grundlage,den Code aus [Hallo! Leere Welt!](##Hallo! Leere Welt!).<br>
@@ -175,7 +175,7 @@
 						<p><strong>Tipp</strong>
 						Verwende für die kreisförmige Anordnung der Objekte <a href="../klassen-und-methodenubersicht-von-gloop.md#GLOOP-Objekte">Methoden aus der Grundlagenübersicht</a>.</p>
 					</section><section name="3.2 Landeplatz">
-						<h1>3.2 Landeplatz</h1>
+						<h2>3.2 Landeplatz</h2>
 						<p>Nachdem im Skulpturengarten Objekte rein statisch waren, d.h. ohne sich selbst zu verändern oder die Position im Raum zu wechseln, sollen in diesem Projekt drei weitere Programmiertechniken verwendet werden:</p>
 						<ol>
 						<li>Java-Arrays (Felder)</li>
@@ -236,7 +236,7 @@
 						<span></span>
 						<span><span class="syntax--source syntax--java"><span class="syntax--meta syntax--class syntax--java"><span class="syntax--punctuation syntax--section syntax--class syntax--end syntax--bracket syntax--curly syntax--java">}</span></span></span></span></pre>
 					</section><section name="3.3 Hindernisparcours">
-						<h1>3.3 Hindernisparcours</h1>
+						<h2>3.3 Hindernisparcours</h2>
 						<p>Mit dem verlinkten Prototypen kann ein Objekt über einer Kachelfeld bewegt werden. Verwende dazu folgende Methoden:</p>
 						<p><strong>Aufgaben</strong></p>
 						<ol>
@@ -245,9 +245,9 @@
 						<li>Gestalten Sie einen Hindernisparcours den das gewählte Objekt durchlaufen/durchfahren soll.</li>
 						</ol>
 					</section><section name="3.4 Ballspiele">
-						<h1>3.4 Ballspiele</h1>
+						<h2>3.4 Ballspiele</h2>
 					</section><section name="3.5 Das Schiebepuzzle II">
-						<h1>3.5 Das Schiebepuzzle II</h1>
+						<h2>3.5 Das Schiebepuzzle II</h2>
 						<p>Im <a href="/das-schiebepuzzle-teil1.md">Kapitel 3</a> haben Sie sich mit einem Schiebepuzzle beschäftigt. Bei diesem Schiebepuzzel konnte man Puzzelteile auf Wegen verschieben, die eigentlich dem Spielprinzip nach eigentlich nicht erlaubt sind.</p>
 						<p>Im zweiten Teil soll nun ein Schiebepuzzel entwickelt werden, bei dem Puzzelteile nicht über den Rahmen oder über andere Puzzelteile hinweg verschoben werden können.</p>
 						<p><strong>Aufgaben</strong></p>
@@ -441,7 +441,7 @@
 	}
 </code> </pre>
 					</section><section name="3.6 Das UFO-Spiel">
-						<h1>3.6 Das UFO-Spiel</h1>
+						<h2>3.6 Das UFO-Spiel</h2>
 						<p><img src="assets/img/UFO_Skizze.jpg" alt=""></p>
 						<h2>Aufgaben</h2>
 						<ol>
@@ -451,7 +451,7 @@
 						<li>Führen Sie für die Asteroiden ein Array ein.</li>
 						</ol>
 					</section><section name="4. MakeyMakey">
-						<h1>4. MakeyMakey</h1>
+						<h2>4. MakeyMakey</h2>
 						<p>Das MakeyMakey-Board ist dazu gedacht, Spiele, die man normalerweise mit einer Comutertastatur steuert, durch Berührung von leitenden Objekte zu steuern. Das eingebettete Video zeigt ein paar exemplarische Beispiele:</p>
 						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rfQqh7iCcOU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					</section><section name="4.1 Eigene Spielideen programmieren">
 						<h2>4.1 Eigene Spielideen programmieren</h2>
